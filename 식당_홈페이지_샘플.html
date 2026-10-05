@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>담소 한식당</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:"Malgun Gothic",Arial,sans-serif;color:#26221d;background:#fffaf3}
+header{min-height:520px;background:linear-gradient(90deg,rgba(20,15,10,.78),rgba(20,15,10,.25)),url('https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1800&q=80') center/cover;display:flex;flex-direction:column;color:white}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 8%;font-weight:700}.logo{font-size:28px}.links a{color:white;text-decoration:none;margin-left:28px}
+.hero{padding:100px 8% 80px;max-width:850px}.hero h1{font-size:54px;margin:0 0 18px}.hero p{font-size:20px;line-height:1.7}.btn{display:inline-block;margin-top:18px;padding:14px 24px;background:#b64a2b;color:white;text-decoration:none;border-radius:6px}
+section{padding:72px 8%}.title{text-align:center;font-size:34px;margin-bottom:12px}.sub{text-align:center;color:#6d655c;margin-bottom:38px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.08)}.card img{width:100%;height:220px;object-fit:cover}.card div{padding:22px}.card h3{margin:0 0 8px}.price{font-weight:700;color:#b64a2b}
+.about{background:#efe3d3;text-align:center}.about p{max-width:800px;margin:18px auto;line-height:1.9}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:30px;max-width:950px;margin:auto}.box{background:white;padding:28px;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,.06);line-height:1.8}
+footer{text-align:center;background:#211b16;color:#d9d0c7;padding:30px}
+@media(max-width:760px){.links{display:none}.hero h1{font-size:40px}.cards,.info{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<nav><div class="logo">담소 한식당</div><div class="links"><a href="#menu">메뉴</a><a href="#about">소개</a><a href="#info">오시는 길</a></div></nav>
+<div class="hero"><h1>정성을 담은<br>따뜻한 한 끼</h1><p>좋은 재료와 정갈한 손맛으로 매일 정성껏 준비합니다.<br>가족과 함께 편안하게 즐기는 우리 동네 한식당.</p><a class="btn" href="tel:0531234567">예약 문의 053-123-4567</a></div>
+</header>
+<section id="menu"><h2 class="title">대표 메뉴</h2><p class="sub">고객에게 보여주기 위한 홈페이지 판매용 샘플입니다.</p>
+<div class="cards">
+<div class="card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"><div><h3>담소 한상</h3><p>제철 반찬과 따뜻한 국, 정성스러운 메인 요리</p><span class="price">18,000원</span></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80"><div><h3>직화 불고기</h3><p>불향을 살려 부드럽게 구워낸 인기 메뉴</p><span class="price">16,000원</span></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80"><div><h3>오늘의 별미</h3><p>계절에 따라 달라지는 특별한 한 접시</p><span class="price">14,000원</span></div></div>
+</div></section>
+<section class="about" id="about"><h2 class="title">담소 이야기</h2><p>누구나 편안하게 찾아와 맛있는 식사를 즐길 수 있는 공간을 만들고 싶었습니다. 담소 한식당은 매일 신선한 재료를 준비하고 기본에 충실한 음식을 만듭니다.</p></section>
+<section id="info"><h2 class="title">매장 안내</h2><p class="sub">실제 고객 주문 시 상호·전화번호·주소·영업시간·사진을 바꾸면 됩니다.</p>
+<div class="info"><div class="box"><b>영업시간</b><br>매일 11:00 ~ 21:30<br>브레이크타임 15:00 ~ 17:00<br>매주 월요일 휴무</div><div class="box"><b>예약 및 위치</b><br>전화 053-123-4567<br>대구광역시 ○○구 ○○로 123<br>주차 가능 · 단체 예약 가능</div></div></section>
+<footer>© 2026 담소 한식당. 홈페이지 제작 샘플</footer>
+</body></html>

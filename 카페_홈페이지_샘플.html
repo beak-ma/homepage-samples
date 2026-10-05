@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>카페 온담 | 홈페이지 샘플</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;color:#2f2924;background:#faf8f4}
+header{background:#3b3028;color:white;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px}
+header strong{font-size:24px} nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{text-align:center;padding:100px 20px;background:linear-gradient(135deg,#efe4d4,#d9c3a5)}
+.hero h1{font-size:48px;margin:10px 0}.hero p{font-size:19px;color:#5c5148}
+.btn{display:inline-block;margin:12px 6px;padding:14px 22px;border-radius:8px;text-decoration:none;background:#5a4636;color:white}
+section{max-width:1050px;margin:auto;padding:65px 24px} h2{text-align:center;font-size:32px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:25px;border-radius:14px;box-shadow:0 3px 15px #00000012}
+.menu{display:grid;grid-template-columns:1fr 1fr;gap:15px}.item{background:white;padding:20px;border-radius:12px;display:flex;justify-content:space-between;gap:20px}
+.info{background:#eee4d8;border-radius:16px;padding:30px;text-align:center} footer{text-align:center;background:#3b3028;color:white;padding:28px}
+@media(max-width:700px){header{display:block;text-align:center}nav{margin-top:15px}.cards,.menu{grid-template-columns:1fr}.hero h1{font-size:36px}}
+</style>
+</head>
+<body>
+<header><strong>카페 온담</strong><nav><a href="#about">소개</a><a href="#menu">메뉴</a><a href="#contact">문의</a></nav></header>
+<div class="hero">
+<p>SPECIALTY COFFEE · DESSERT</p>
+<h1>따뜻한 커피, 편안한 하루</h1>
+<p>좋은 원두와 매일 직접 준비하는 디저트가 있는 동네 카페</p>
+<a class="btn" href="#menu">메뉴 보기</a><a class="btn" href="#contact">예약·단체 문의</a>
+</div>
+<section id="about">
+<h2>카페 온담을 소개합니다</h2>
+<div class="cards">
+<div class="card"><h3>☕ 엄선한 원두</h3><p>매일 신선하게 추출하는 스페셜티 커피를 제공합니다.</p></div>
+<div class="card"><h3>🍰 수제 디저트</h3><p>커피와 잘 어울리는 케이크와 베이커리를 준비합니다.</p></div>
+<div class="card"><h3>🌿 편안한 공간</h3><p>혼자서도, 함께여도 오래 머물기 좋은 공간입니다.</p></div>
+</div>
+</section>
+<section id="menu">
+<h2>대표 메뉴</h2>
+<div class="menu">
+<div class="item"><span><b>온담 크림라떼</b><br>부드러운 크림과 진한 에스프레소</span><b>6,500원</b></div>
+<div class="item"><span><b>아메리카노</b><br>고소하고 균형 잡힌 데일리 커피</span><b>4,500원</b></div>
+<div class="item"><span><b>바스크 치즈케이크</b><br>진하고 촉촉한 수제 케이크</span><b>6,800원</b></div>
+<div class="item"><span><b>딸기 생크림 케이크</b><br>신선한 과일과 가벼운 생크림</span><b>7,500원</b></div>
+</div>
+</section>
+<section id="contact">
+<div class="info">
+<h2>영업 안내 · 문의</h2>
+<p><b>영업시간</b> 10:00 - 22:00 &nbsp; | &nbsp; <b>휴무</b> 매주 월요일</p>
+<p><b>주차</b> 가능 &nbsp; | &nbsp; <b>단체예약</b> 전화 문의</p>
+<p>※ 판매용 샘플입니다. 실제 주문 시 상호, 사진, 메뉴, 가격, 전화번호, 주소를 고객 정보로 교체합니다.</p>
+</div>
+</section>
+<footer>© 카페 온담 · 홈페이지 제작 판매용 샘플</footer>
+</body>
+</html>
